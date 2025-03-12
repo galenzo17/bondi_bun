@@ -4,5 +4,8 @@
   "devDependencies": {
     "@types/bun": "latest"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "elysia": "^1.2.25"
+  }
 }
