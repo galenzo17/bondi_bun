@@ -10,6 +10,7 @@
   },
   "type": "module",
   "dependencies": {
-    "elysia": "^1.2.25"
+    "elysia": "^1.2.25",
+    "express": "^4.21.2"
   }
 }
