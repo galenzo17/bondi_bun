@@ -1,6 +1,10 @@
 {
   "name": "my-project",
   "module": "index.ts",
+  "scripts": {
+    "dev": "bun run --hot index.ts",
+    "build": "bun build ./src/index.js --outdir ./dist"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
