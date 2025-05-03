@@ -2,11 +2,16 @@
   "name": "my-project",
   "module": "index.ts",
   "scripts": {
-    "dev": "bun run --hot index.ts",
+    "start": "bun run --hot index.ts",
+    "cli:dev": "bun run --hot indexCli.ts",
     "build": "bun build ./src/index.js --outdir ./dist"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@ai-sdk/google": "^1.2.14",
+    "@types/bun": "latest",
+    "ai": "^4.3.13",
+    "ollama-ai-provider": "^1.2.0",
+    "zod": "^3.24.3"
   },
   "type": "module",
   "dependencies": {
