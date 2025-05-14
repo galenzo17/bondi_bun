@@ -88,6 +88,7 @@ class StreamableHTTPClientTransport {
 
 // Configuración de Gemini
 const apiKey = process.env.GEMINI_API_KEY;
+console.log('Gemini API Key:', apiKey)
 if (!apiKey) {
   throw new Error('GEMINI_API_KEY is required');
 }
