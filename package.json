@@ -2,7 +2,7 @@
   "name": "my-project",
   "module": "index.ts",
   "scripts": {
-    "start": "bun run --hot index.ts",
+    "start": "bun --serve --port 3000 ./",
     "cli:dev": "bun run --hot indexCli.ts",
     "build": "bun build ./src/index.js --outdir ./dist"
   },
